@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #6B6C78;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80em;
+}
+
+.nn_label {
+    background-color: #B2B3BD;
+    color: black;
+    border: black;
+    outline: auto;
+    border-radius: 5px;
+    border-width: 0.5em;
+    padding: 3px;
+}
+
+.nickname {
+    margin-left: 10px;
+    outline: auto;
+    align-self: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 0.5em;
+}
+
+.msglabel {
+    display: flex;
+    align-items: center;
+}
+
+.msg_label {
+    background-color: #B2B3BD;
+    color: black;
+    border: black;
+    outline: auto;
+    border-radius: 5px;
+    border-width: 0.5em;
+    padding: 3px;
+}
+
+.messageBox {
+    margin-left: 22px;
+    outline: auto;
+    align-self: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-width: 0.5em;
+}
+
+.button {
+    padding: 5px;
+    align-self: center;
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+    border-radius: 5px;
+    background: azure;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #9B9BA2;
+    text-decoration: underline;
+}

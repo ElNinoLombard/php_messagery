@@ -25,16 +25,23 @@ if(isset($_POST['send'])){ //down in the html part we created a button called "s
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="./css/styles.css" rel = "stylesheet">
     <title>Direct Message</title>
 </head>
 <body>
-    <form method="POST" action="" align = "center">
-        <input type="text" name="nickname">
-        <br><br>
-        <textarea type="message" name="msg"></textarea>
-        <br>
-        <input type="submit" name="send">
-    </form>
+    <div class="inputBox">
+        <form method="POST" action="" align = "center">
+            <label for="nickname" class="nn_label"> Insert nickname: </label>
+            <input type="text" id= "nickname" name="nickname" class="nickname">
+            <br><br>
+            <div class="msglabel">
+                <label for="message" class="msg_label"> Insert message: </label>
+                <textarea type="message" id="message" name="msg" class="messageBox"></textarea>
+            </div>
+            <br>
+            <input type="submit" name="send" class="button">
+        </form>
+    </div>
     <section id="messages"></section>
 
     <script> //here we can write in js to import the message to refresh all instantly
